@@ -1,0 +1,30 @@
+.flex-container{
+    display : flex;
+    justify-content: center;
+    background-color: dodgerblue;
+  }
+  
+  .flex-container > div {
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+      }
+      .flex-container-alt {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        margin-top: 20px; /* Adjust top margin as needed */
+      }
+      .flex-container-alt > div {
+        padding: 6px;
+        margin: 10px;
+        text-align: center;
+        font-size: 30px;
+        color: white; /* Adjust text color for better visibility on a colored background */
+      }
+      .highlight {
+    background-color: black;
+    color: black;
+    font-weight: bold;
+  }
